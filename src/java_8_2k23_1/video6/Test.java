@@ -10,5 +10,7 @@ public class Test {
 		Mobile m2 = new Samsung();
 		m2.doVoiceCall();
 		m2.doVideoCall();
+		
+		Mobile.sendSMS();
 	}
 }

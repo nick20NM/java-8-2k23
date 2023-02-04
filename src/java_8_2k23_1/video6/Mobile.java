@@ -9,4 +9,8 @@ public interface Mobile {
 	default void doVideoCall() {
 		System.out.println("default implementation of doVideoCall() inside Mobile");
 	}
+	
+	static void sendSMS() {
+		System.out.println("sendSMS static method from Mobile interface");
+	}
 }

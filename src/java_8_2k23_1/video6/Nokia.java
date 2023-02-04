@@ -6,5 +6,11 @@ public class Nokia implements Mobile {
 	public void doVoiceCall() {
 		System.out.println("doVoiceCall() implementation inside Nokia");
 	}
+	
+	// we cannot override static methods
+//	@Override
+//	public static void sendSMS() {
+//		
+//	}
 
 }
